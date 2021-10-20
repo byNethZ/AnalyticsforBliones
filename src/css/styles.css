@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFFFF, #0034c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, #0034c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+p{
+    color: #585858;
+}
+
+/* Logotipo */
+
+.logotipo{
+    margin-top: 4rem;
+    width: 85%;
+    max-width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Seccion tarjetas */
+
+.card-Info{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 2rem 1.3rem;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.card-Info_imgPrin img{
+    background-color: #0034c8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.card-Info_datas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.card-Info_imgSec{
+    margin-bottom: .8rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 95%;
+}
+.card-Info_imgSec img{
+    background-color: #0034c8;
+    padding: .5rem;
+    border-radius: 50%;
+    width: 2rem;
+}
+.card-Info_imgSec h4{
+    overflow-wrap: break-word;
+}
+
+.chart{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .card-container{
+        padding: 2rem;
+    }
+    .card-Info_imgSec{
+        width: 40%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .chart{
+        display: block;
+    }
+}
+@media (min-width: 1260px) {
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-Info{
+        width: 42%;
+    }
+}
+/* Footer */
+footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size: 16px;
+}
+footer a{
+    color: #0034c8;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.redes img{
+    width: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
